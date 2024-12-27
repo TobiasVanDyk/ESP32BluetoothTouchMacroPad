@@ -22,8 +22,8 @@ The LCD display used is available here: [**Communica ESP32 CYB ST7796 3.5inch 32
 <img src="images/Sch2.jpg" height="240" /> 
 </p>
 
-The previous [**RPi Pico RP20240 code**](https://github.com/TobiasVanDyk/Pico-MCU-from-Raspberry-Pi/tree/main/TouchMacroPadPico) was modified for the ESP32, and compiled with ESP32Arduino 2.0.17 and TFTeSPI 2.5.43 and [**ESP32 BLE Keyboard library**](
-https://github.com/Cemu0/ESP32-BLE-Keyboard/tree/addSpecialKeySync), which includes CapsNumScroll lock indicators  
+The previous [**RPi Pico RP20240 code**](https://github.com/TobiasVanDyk/Pico-MCU-from-Raspberry-Pi/tree/main/TouchMacroPadPico) was modified for the ESP32, and compiled with ESP32Arduino 2.0.17 and TFTeSPI 2.5.43 and this variant of the [**ESP32 BLE Keyboard library**](
+https://github.com/Cemu0/ESP32-BLE-Keyboard/tree/addSpecialKeySync), which includes CapsNumScroll lock indicators. 
 
 The SDCard slot can be used for saving and reading files both text and Macro definition files. When textfiles are used the 21 sets of 24 keys each send the SDCard files as keyboard characters to the PC - the size of the files/strings are only limited by the SDCard size. Change between 21 SDCard file-sets of 24 x 3 files each, with \*sd\*n. Refer to the [**manual**](Manual.md) for further instructions.
 
