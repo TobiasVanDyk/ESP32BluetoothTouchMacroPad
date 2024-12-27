@@ -15,7 +15,7 @@ Eight keys - normally the [Cut][Copy]Paste[Delete][Return][cX][cC][cV] keys - ca
 Controlling the user interface appearance and functions are done using an extensive set of starcodes which can be entered on the TouchLCD or sent via a PC serial port or a Powershell command to the Touchpad. For example sending <\*x9\*0102030405060719> will set all 8 special keys - normally the Cut-Copy-Paste-Delete-Return keys, to new actions and labels - the 8 keys will then be Del Bks Tab aTb Ins Esc and [Del] = PrS and [Ret] = Run. Using a Powershell get-process, one can then set these keys according to which PC application is open. These \* commands can also be in a macrolink file.
 This means it is possible with a single macropad keypress to open for example photoshop on a PC, and at the same time re-configure the macropad keys for photoshop-specific functions. See Example 8 in the manual for more detail.
 
-The LCD display used are avialable here: [**Communica ESP32 CYB ST7796 3.5inch 320x480**](https://www.communica.co.za/products/bdd-esp32-lvgl-wifi-bt-3-5in-lcd) and it includes an SDCard holder. Schematics for this LCD are in the images folder.
+The LCD display used are available here: [**Communica ESP32 CYB ST7796 3.5inch 320x480**](https://www.communica.co.za/products/bdd-esp32-lvgl-wifi-bt-3-5in-lcd) and it includes an SDCard holder. Schematics for this LCD are in the images folder.
 
 <p align="left">
 <img src="images/Sch1.jpg" height="240" /> 
