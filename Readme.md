@@ -1,9 +1,9 @@
-# ESP32 CYD LCD Bluetooth Touch Macropad
+# ESP32 CYB LCD Bluetooth Touch Macropad
 
 <p align="left">
-<img src="images/esp01.jpg" height="260" /> 
-<img src="images/esp02.jpg" height="260" /> 
-<img src="images/esp03.jpg" height="260" /> 
+<img src="images/esp01.jpg" height="160" /> 
+<img src="images/esp02.jpg" height="160" /> 
+<img src="images/esp03.jpg" height="160" /> 
 </p>
 
 An [**ESP32-WROOM-32**](https://www.raspberrypi.org/products/raspberry-pi-pico/) is used as a **Bluetooth Touch LCD Macropad** with direct access to 513 single and 96 link-list macros - namely 3 independent sets (note 1), of 72 user-programmable macros, selectable from 3 sets of three banks of 24 macros, as well as another three sets of 99 programmable macro-files, each of which can be further linked through a plaintext list of 3-letter macro-filenames. In addition 456 (19 sets of 24 files), text files can be accessed directly from an SDCard using the same macro-keys. There are more than 50 different pages and layouts for actions such as Media-keys (Volume Mute Play-Stop Next-Previous Bass-Treble), inserting special characters and mathematics symbols, a Restart-Shutdown Timer Configuration, Timer-executed repeat-and-oneshot macros, a Macro Composition, Manipulation, File, and Linking editor, an enhanced 3 page Numberpad, and easy access for showing PC sensor data, Music Player information, or manipulating many other specialized data sources from a PC running GNU/Linux, and/or Windows. Note 1: Macro definitions (A01-A99, S1-S24, T1-T24, M1-M24) can be stored on the flash file-system as lowercase filenames (i.e. s01-s24 etc), or uppercase filenames (S01-S24), or on the SDCard as one set only of lower or uppercase files but here file s01 = file S01. Macros: 3x99 A-files + 3x3x24 MST-files = 513. Linked-List Macros: 3x24 M,S,T,01Link-M,S,T,24Link + K01Link-K24Link = 96 linked-lists. Because the linked-list macros can contain any 3-character filename, the number of stored macros, especially on the SDCard, is a huge number = 36^3 = 46,656 macro-files, and this is without upper-lower-case combinations on flash-storage which is then (26+26+10)^3 = 62^3 = 238,328 macros. Note 2: The linklist can be extended to load other linklist files, through LxyXnn where Xnn is the name of the next XnnLink file to be loaded and executed according to its content, and Lxy indicates various SDCard/Flash options for where the next linklist is stored, and how any switch between Flash memory and SDCard storage, should be handled.
